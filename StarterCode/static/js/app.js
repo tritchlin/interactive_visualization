@@ -178,7 +178,7 @@ function updateMetadata(MetadataPersonID){
     //     "bbtype": metadata.bbtype,
     //     "wfreq": metadata.wfreq
     // };
-    var html = `
+    var html = "
         <p><strong>id:</strong> ${metadata.id}</p>
         <p><strong>ethnicity:</strong> ${metadata.ethnicity}</p>
         <p><strong>gender:</strong> ${metadata.gender}</p>
@@ -186,7 +186,7 @@ function updateMetadata(MetadataPersonID){
         <p><strong>location:</strong> ${metadata.location}</p>
         <p><strong>bbtype:</strong> ${metadata.bbtype}</p>
         <p><strong>wfreq:</strong> ${metadata.wfreq}</p>
-        `;
+        ";
     return html;
 };
 
